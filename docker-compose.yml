@@ -5,8 +5,8 @@ services:
      build: .
      ports:
        - "8888:8888"
-     volumes:
-       - ./notebook:/home/jovyan/work
+     #volumes:
+     #  - ./notebook:/home/jovyan/work
      restart: always
      environment:
       JUPYTER_ENABLE_LAB: "yes"
